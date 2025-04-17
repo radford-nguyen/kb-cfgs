@@ -23,11 +23,9 @@
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
       bindings
-          = <&macro_press &kp LEFT_CONTROL>
-          , <&macro_press &kp ALT>
+          = <&macro_press &kp LEFT_CONTROL &kp LEFT_ALT>
           , <&macro_tap &kp DELETE>
-          , <&macro_release &kp ALT>
-          , <&macro_release &kp LEFT_CONTROL>
+          , <&macro_release &kp LEFT_CONTROL &kp LEFT_ALT>
           ;
     };
     win_lockscreen: win_lockscreen {
@@ -43,11 +41,9 @@
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
       bindings
-          = <&macro_press &kp LEFT_GUI>
-          , <&macro_press &kp LSHIFT>
+          = <&macro_press &kp LEFT_GUI &kp LSHIFT>
           , <&macro_tap &kp S>
-          , <&macro_release &kp LEFT_GUI>
-          , <&macro_release &kp LSHIFT>
+          , <&macro_release &kp LEFT_GUI &kp LSHIFT>
           ;
     };
   };
