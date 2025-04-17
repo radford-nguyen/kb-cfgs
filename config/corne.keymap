@@ -23,11 +23,11 @@
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
       bindings
-          = <&macro_press &kp CONTROL>
+          = <&macro_press &kp LEFT_CONTROL>
           , <&macro_press &kp ALT>
           , <&macro_tap &kp DELETE>
           , <&macro_release &kp ALT>
-          , <&macro_release &kp CONTROL>
+          , <&macro_release &kp LEFT_CONTROL>
           ;
     };
     win_lockscreen: win_lockscreen {
