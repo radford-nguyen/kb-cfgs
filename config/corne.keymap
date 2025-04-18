@@ -72,9 +72,9 @@ layer0 {
         >;
       };layer3 {
         bindings = <
-        &sys_reset &none &none &none &none &none    &none &none &none &none &none &win_ctlaltdel
-        &none      &none &none &none &none &none    &none &none &none &none &none &win_lockscreen
-        &none      &none &none &none &none &none    &none &none &none &none &none &win_screenshot
+        &sys_reset &none &none &none &none      &none    &none &none &none &none &none &win_ctlaltdel
+        &bt BT_CLR &none &none &none &bt BT_NXT &none    &none &none &none &none &none &win_lockscreen
+        &none      &none &none &none &none      &none    &none &none &none &none &none &win_screenshot
                 &kp LEFT_GUI &none &mo 2                 &mo 1 &none &kp RIGHT_ALT
         >;
       };
